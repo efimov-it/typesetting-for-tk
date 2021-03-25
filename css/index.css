@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 800;
+  src: url(/fonts/raleway/Raleway-ExtraBold.ttf) format("truetype");
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+}
+/*# sourceMappingURL=index.css.map */
