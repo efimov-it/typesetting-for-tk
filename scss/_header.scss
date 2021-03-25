@@ -1,0 +1,8 @@
+.main-header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px calc(50% - 585px);
+    background-color: rgba(16, 16, 29, .9);
+}

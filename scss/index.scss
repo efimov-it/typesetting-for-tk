@@ -3,9 +3,19 @@
     font-weight: 800;
     src: url(/fonts/raleway/Raleway-ExtraBold.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Lato';
+    font-weight: 500;
+    src: url(/fonts/lato/Lato-Semibold.ttf) format('truetype');
+}
 
+@import 'header';
+@import 'logo';
+@import 'menu';
 
-h1 {
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
 }
