@@ -1,0 +1,50 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px calc(50% - 585px) 0px;
+
+    &_background {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+    }
+
+    &_title {
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 48px;
+        text-transform: uppercase;
+        padding-bottom: 46px;
+        line-height: 64px;
+    }
+
+    &_text, &_list {
+        font-family: Lato;
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    &_text {
+        font-weight: 600;
+        padding-bottom: 18px;
+    }
+    
+    &_list {
+        padding-bottom: 80px;
+    }
+
+    &_button {
+        &:not(:last-child) {
+            margin-right: 27px;
+        }
+    }
+
+    &_buttons {
+        display: flex;
+    }
+}

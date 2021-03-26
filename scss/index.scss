@@ -5,17 +5,41 @@
 }
 @font-face {
     font-family: 'Lato';
+    font-weight: 400;
+    src: url(/fonts/lato/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
     font-weight: 500;
     src: url(/fonts/lato/Lato-Semibold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 600;
+    src: url(/fonts/lato/Lato-Bold.ttf) format('truetype');
 }
 
 @import 'header';
 @import 'logo';
 @import 'menu';
 
+@import 'banner';
+@import 'list';
+@import 'button';
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    color: #2a2b30;
+    font-family: Lato;
+}
+
+.text {
+
+
+    &-accent {
+        color: #42a9ed;
+    }
 }
