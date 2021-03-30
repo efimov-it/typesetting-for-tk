@@ -1,0 +1,14 @@
+.form {
+    &_row {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    &_input {
+        
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}

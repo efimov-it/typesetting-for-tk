@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LoremIpsum.Net</title>
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/css/index.css" />
     <script src="js/main.js"></script>
 </head>
@@ -22,8 +23,7 @@
     </header>
 
     <main class="page main-page">
-        <div class="main-page_banner banner">
-            <img class="banner_background" src="/img/main-page-banner.jpg" alt="LoremIpsum.Net" />
+        <section class="main-page_banner banner">
             <h2 class="banner_title">
                 <span class="text-accent">Lorem ipsum</span> dolor sit amet<br />
                 consectetur <span class="text-accent">adipiscing</span>
@@ -38,9 +38,74 @@
                 <a class="banner_button button button__accent" type="button" href="#make-order">Заказать</a>
                 <a class="banner_button button" type="button" href="#more">Подробнее</a>
             </div>
-        </div>
+        </section>
 
-        
+        <section class="order-block block" id="make-order">
+            <h2 class="order-block_title block_title">Оформление <span class="text-accent">заказа</span></h2>
+            <p class="order-block_description block_description">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+            
+            <div class="work-shema">
+                <div class="work-shema_step step">
+                    <div class="step_circle">
+                        <i class="fa fa-search step_icon" aria-hidden="true"></i>
+                    </div>
+                    <p class="step_name">Lorem ipsum dolor<br />sit amet</p>
+                </div>
+                
+                <div class="work-shema_step step">
+                    <div class="step_circle">
+                        <i class="fa fa-percent step_icon" aria-hidden="true"></i>
+                    </div>
+                    <p class="step_name">Сonsecteturadipiscing elit</p>
+                </div>
+                
+                <div class="work-shema_step step">
+                    <div class="step_circle step_circle__plus-badge">
+                        <i class="fa fa-file-text-o step_icon" aria-hidden="true"></i>
+                    </div>
+                    <p class="step_name">Sed do eiusmod tempor</p>
+                </div>
+                
+                <div class="work-shema_step step">
+                    <div class="step_circle">
+                        <i class="fa fa-envelope step_icon" aria-hidden="true"></i>
+                    </div>
+                    <p class="step_name">Esse cillum dolore<br />eu fugiat</p>
+                </div>
+                
+                <div class="work-shema_step step">
+                    <div class="step_circle">
+                        <i class="fa fa-money step_icon" aria-hidden="true"></i>
+                    </div>
+                    <p class="step_name">Excepteur sint occaecat cupidatat non proident</p>
+                </div>
+            </div>
+
+            <form action="#" class="order-block_form form">
+                <div class="form_row">
+                    <input class="form_input input" type="text" placeholder="Выберите тип системы" />
+                    <input name="email" required="true" class="form_input input" type="text" placeholder="Ваш e-mail" />
+                    <input name="name" required="true" class="form_input input" type="text" placeholder="Ваше имя" />
+                </div>
+                <div class="form_row">
+                    <label class="form_input-range input-range input-range__order-block">
+                        <div class="input-range_text">
+                            <p class="input-range_placeholder">Sed ut perspiciatis, unde omnis iste natus</p>
+                            <p class="input-range_value-text">75 %</p>
+                        </div>
+                        <input class="input-range_value" type="range" />
+                    </label>
+                    <label class="form_input-file input-file button input-file__order-block">
+                        <input name="file" class="input-file_dialog" type="file" />
+                        <i class="fa fa-file-text-o input-file_icon" aria-hidden="true"></i>
+                        Прикрепить файл
+                    </label>
+                </div>
+                <div class="form_row">
+                    <button class="button button__accent button__order-form" type="submit">Отправить</button>
+                </div>
+            </form>
+        </section>
     </main>
 </body>
 </html>

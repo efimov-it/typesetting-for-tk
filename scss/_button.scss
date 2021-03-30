@@ -6,6 +6,7 @@
     min-width: 180px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-top: 4px; //компенсация нижнего отступа шрифта
     font-size: 13px;
     text-transform: uppercase;
     background: #ffffff;
@@ -17,5 +18,13 @@
         background: #3e9cdc;
         border-color: #ffffff;
         color: #ffffff;
+    }
+
+    &__order-form {
+        height: 48px;
+        font-size: 15px;
+        font-weight: 500;
+        width: calc(93% / 3);
+        margin: 0px auto;
     }
 }

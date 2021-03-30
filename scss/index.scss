@@ -18,6 +18,11 @@
     font-weight: 600;
     src: url(/fonts/lato/Lato-Bold.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Lato';
+    font-weight: 700;
+    src: url(/fonts/lato/Lato-Heavy.ttf) format('truetype');
+}
 
 @import 'header';
 @import 'logo';
@@ -26,6 +31,13 @@
 @import 'banner';
 @import 'list';
 @import 'button';
+@import 'block';
+@import 'order-block';
+@import 'work-shema';
+@import 'step';
+
+@import 'form';
+@import 'inputs';
 
 * {
     margin: 0px;

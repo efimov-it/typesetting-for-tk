@@ -1,0 +1,15 @@
+.order-block {
+    background-image: url(/img/map.jpg);
+    background-size: cover;
+    padding: 124px calc(50% - 585px) 147px;
+    min-height: 880px;
+
+    &_title {
+        text-align: center;
+    }
+
+    &_description {
+        text-align: center;
+        padding-bottom: 80px;
+    }
+}

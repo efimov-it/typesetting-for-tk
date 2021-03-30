@@ -1,0 +1,55 @@
+.step {
+    width: 190px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    &_circle {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: #3e9cdc;
+        border: 5px solid #286690;
+        margin-bottom: 20px;
+        font-size: 36px;
+
+        &__plus-badge::before {
+            content: '';
+            position: absolute;
+            top: 21px;
+            left: 24px;
+            width: 14px;
+            height: 14px;
+            background-image: url(/img/plus-badge.svg);
+            z-index: 1;
+        }
+    }
+
+    &_icon {
+        color: #ffffff;
+        position: relative;
+    }
+
+    &:not(:last-child) &_circle::after {
+        content: '';
+        width: 102px;
+        height: 6px;
+        background-image: url(/img/steps-path.svg);
+        background-size: contain;
+        position: absolute;
+        left: 115px;
+    }
+
+    &_name {
+        width: 100%;
+        color: #ffffff;
+        word-wrap: break-word;
+        text-align: center;
+    }
+}
