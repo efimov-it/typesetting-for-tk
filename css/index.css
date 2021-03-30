@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Raleway';
   font-weight: 800;
@@ -170,6 +171,7 @@
   border: 1px solid #6f6d7b;
   border-radius: 4px;
   line-height: 10px;
+  cursor: pointer;
 }
 
 .button__accent {
@@ -356,7 +358,6 @@
   font-size: 15px;
   font-weight: 500;
   border: 2px solid #3e9cdc;
-  cursor: pointer;
 }
 
 .input-file_dialog {
@@ -399,6 +400,87 @@
 
 .input-range__order-block {
   width: 64.7%;
+}
+
+.footer {
+  height: 80px;
+  background-color: #3d4050;
+  padding: 0px calc(50% - 585px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_copyright {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer_separator {
+  width: 1px;
+  height: 18px;
+  background-color: #c3c3c3;
+}
+
+.footer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-item_icon {
+  margin-right: 10px;
+  color: #42a9ed;
+}
+
+.footer-item_text {
+  padding-top: 4px;
+  font-size: 13px;
+  color: #c3c3c3;
+}
+
+.footer-item_text__link {
+  color: #fefefe;
+}
+
+.icon {
+  width: 17px;
+  height: 17px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.icon__qiwi {
+  background-image: url(/img/payment-systems.png);
+  background-position: 0px 0px;
+}
+
+.icon__yandexmoney {
+  background-image: url(/img/payment-systems.png);
+  background-position: -17px 0px;
+}
+
+.icon__webmoney {
+  background-image: url(/img/payment-systems.png);
+  background-position: -34px 0px;
+}
+
+.icon__vk::before {
+  display: block;
+  margin: 0px auto;
+  font-size: 18px;
+  font-weight: 700;
+  content: 'В';
+  color: #42a9ed;
 }
 
 * {

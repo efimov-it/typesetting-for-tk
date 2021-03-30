@@ -1,0 +1,33 @@
+.icon {
+    width: 17px;
+    height: 17px;
+    background-position: top left;
+    background-repeat: no-repeat;
+
+    &__qiwi {
+        background-image: url(/img/payment-systems.png);
+        background-position: 0px 0px;
+    }
+
+    &__yandexmoney {
+        background-image: url(/img/payment-systems.png);
+        background-position: -17px 0px;
+    }
+
+    &__webmoney {
+        background-image: url(/img/payment-systems.png);
+        background-position: -34px 0px;
+    }
+
+    &__vk {
+        
+        &::before {
+            display: block;
+            margin: 0px auto;
+            font-size: 18px;
+            font-weight: 700;
+            content: 'В';
+            color: #42a9ed;
+        }
+    }
+}
